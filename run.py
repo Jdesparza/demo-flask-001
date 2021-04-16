@@ -9,8 +9,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def inicio():
-	return "<h1>¡Hola mundo! :)</h1>"
-	return "<h2>Por: Jdesparza</h2>"
+	return "<h1>¡Hola mundo! :)</h1>\n<h2>Por: Jdesparza</h2>"
 
 @app.route('/suma')
 def suma():
